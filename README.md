@@ -23,4 +23,4 @@ logger.error('This is error msg'); // this will not be logged
 ```
 
 Similarly you can create many such logger and activate only the required logger from the configuration.  
-For more [examples](https://github.com/AkashBabu/logger-switch/examples)
+For more [examples](https://github.com/AkashBabu/logger-switch/tree/master/examples)
