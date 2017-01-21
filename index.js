@@ -32,4 +32,6 @@ Logger.prototype.deactivate = function(){
     this.active = false;
 }
 
+function noop () {}
+
 module.exports = Logger;
