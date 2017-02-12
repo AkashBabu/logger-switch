@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/AkashBabu/logger-switch/issues"
   },
-  "homepage": "https://github.com/AkashBabu/logger-switch#readme"
+  "homepage": "https://github.com/AkashBabu/logger-switch#readme",
+  "dependencies": {
+    "moment": "^2.17.1"
+  }
 }
