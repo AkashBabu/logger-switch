@@ -17,9 +17,9 @@ logger.timestamp('DD MMM YY, HH:mm a');
 
 logger.log('hi' + ' Cavin', "how r u??");
 
-// logger.deactivate();
+logger.deactivate();
 logger.error('This will not be logger');
 
 logger.activate();
 logger.timestamp(null);
-logger.log('after activate');
+logger.log('this will not have timstamp');
