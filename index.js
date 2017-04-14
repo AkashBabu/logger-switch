@@ -36,6 +36,7 @@ var Logger = function (name, logger) {
 }
 
 /**
+ * @private
  * @type {Logger~getPrefix}
  * @return The prefix to be used while logging
  */
