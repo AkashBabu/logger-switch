@@ -1,11 +1,8 @@
 # logger-switch
 Nodejs library to turn ON/OFF logging and also deactivate/activate logging only in a particular peice of code, or use your own logger etc.
 
-
-
-
-
-
+## Installation 
+> npm install logger-switch --save
 
 ## Usage
 
@@ -47,6 +44,11 @@ Will disable logging activity
 **timestamp(format)**
 Will enable/disable timestamp logging.
 *format* - Supports momentjs timestamp format string. if `null` is passed then timestamp logging will be disabled  
+
+## Testing
+> npm install  
+> npm test
+
 
 
 Similarly you can create many such logger and activate only the required logger from the configuration file, depending on env being used.  
