@@ -2,9 +2,9 @@
   "name": "logger-switch",
   "version": "2.1.0",
   "description": "A simple library to turn ON/OFF logging activity, or enable only a few loggers or even enable/disable logging for a particular code etc.\"",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test/"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/AkashBabu/logger-switch#readme",
   "dependencies": {
-    "moment": "^2.17.1"
+    "args-pattern": "^1.0.1",
+    "moment": "^2.17.1",
+    "readable-stream": "^2.2.9"
   },
   "devDependencies": {
     "chai": "^3.5.0",
