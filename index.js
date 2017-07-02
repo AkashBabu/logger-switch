@@ -16,7 +16,7 @@ var moment = require('moment');
  * Logger Function
  * @constructor
  * @param {string} name - Prefix to be used while printing
- * @param {logger} logger - Logger to be used 
+ * @param {logger=} logger - Logger to be used 
  */
 var Logger = function (name, logger) {
     this.name = name ? name : 'Log';

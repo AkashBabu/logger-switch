@@ -1,6 +1,6 @@
 var Logger = require("../index")
 var moment = require("moment")
-var logger = new Logger("Test")
+var logger = new Logger("Test");
 var chai = require("chai")
 var should = chai.should()
 chai.use(require("sinon-chai"))
